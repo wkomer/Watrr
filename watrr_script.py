@@ -60,7 +60,7 @@ class Handler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_POST(self):
     self._set_headers()
     self.wfile.write("{}")
- 
+#-- FLOW SENSOR --
 def flow_sensor_tick(channel):  
     global tick
     global lastTime
@@ -71,7 +71,7 @@ def flow_sensor_tick(channel):
  
     lastTime = time.time()
     tick+=1 #0.009009
-   
+#-- Grab Temperature
 def grab_temperature():
     with open("/sys/bus/w1/devices/28-0416932306ff/w1_slave") as f:
     content = f.readlines()

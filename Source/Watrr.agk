@@ -1,4 +1,3 @@
-
 [apk_settings]
 alias=
 app_icon_path=
@@ -25,7 +24,7 @@ build_number=
 device_type=0
 facebook_id=
 orientation=0
-output_path=
+output_path=/Users/krakenjr/Desktop/Watrr/Source/Watrr.ipa
 prov_profile_path=
 splash_1136_path=
 splash_2048_path=
@@ -45,7 +44,6 @@ FILE_1=Framework.agc;-1
 
 [files]
 FILE_NAME_0=1;main.agc;1360;0
-FILE_NAME_1=0;Framework.agc;722;1
 
 [project]
 description=
